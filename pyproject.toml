@@ -1,14 +1,23 @@
 [tool.poetry]
 name = "set-trade-daily-summary"
 version = "0.1.0"
-description = ""
+description = "Scrape Daily SET Trade Summary"
 authors = ["Vikrom Narula <vikrom.nar@gmail.com>"]
 readme = "README.md"
 packages = [{include = "set_trade_daily_summary"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+beautifulsoup4 = "^4.11.2"
+pandas = "^1.5.3"
+requests = "^2.28.2"
 
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.2"
+flake8 = "^6.0.0"
+isort = "^5.12.0"
+pynvim = "^0.4.3"
+neovim = "^0.3.1"
 
 [build-system]
 requires = ["poetry-core"]
