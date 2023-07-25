@@ -4,7 +4,6 @@ version = "0.1.0"
 description = "Scrape Daily SET Trade Summary"
 authors = ["Vikrom Narula <vikrom.nar@gmail.com>"]
 readme = "README.md"
-packages = [{include = "set_trade_daily_summary"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
